@@ -1,13 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "auto_upgrade": true,
   "blocks": [
     {
       "alignment": "left",
       "segments": [
         {
           "background": "#003543",
-          "foreground": "#003543",
+          "foreground": "#fff",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "windows": "\uf179"
