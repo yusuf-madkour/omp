@@ -7,7 +7,7 @@
       "segments": [
         {
           "background": "#003543",
-          "foreground": "#fff",
+          "foreground": "#003543",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "windows": "\uf179"
