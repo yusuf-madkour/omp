@@ -2,23 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "segments": [
-        {
-          "foreground": "#ff8800",
-          "style": "diamond",
-          "template": "{{ round .PhysicalPercentUsed .Precision }}% ",
-          "type": "sysinfo"
-        },
-        {
-          "foreground": "#ff8800",
-          "style": "diamond",
-          "template": "{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1073741824.0) }}/{{ (div .PhysicalTotalMemory 1073741824.0) }}GB ",
-          "type": "sysinfo"
-        }
-      ],
-      "type": "rprompt"
-    },
-    {
       "alignment": "left",
       "segments": [
         {
@@ -31,19 +14,19 @@
           "type": "os"
         },
         {
-          "foreground": "#ff8800",
+          "foreground": "#62c0ff",
           "style": "plain",
           "template": "{{ .UserName }}@",
           "type": "session"
         },
         {
-          "foreground": "#ff8800",
+          "foreground": "#62c0ff",
           "style": "plain",
           "template": "{{ .HostName }}",
           "type": "session"
         },
         {
-          "foreground": "#62c0ff",
+          "foreground": "#ff8800",
           "properties": {
             "folder_separator_icon": "/",
             "style": "full"
