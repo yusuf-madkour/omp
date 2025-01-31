@@ -37,6 +37,12 @@
           "type": "session"
         },
         {
+          "foreground": "#ff8800",
+          "style": "plain",
+          "template": "@",
+          "type": "text"
+        },
+        {
           "foreground": "#62c0ff",
           "properties": {
             "folder_separator_icon": "/",
