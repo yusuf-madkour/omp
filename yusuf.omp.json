@@ -33,14 +33,14 @@
         {
           "foreground": "#ff8800",
           "style": "plain",
-          "template": "{{ .UserName }}:",
+          "template": "{{ .UserName }}@",
           "type": "session"
         },
         {
           "foreground": "#ff8800",
           "style": "plain",
-          "template": "@",
-          "type": "text"
+          "template": "{{ .HostName }}",
+          "type": "session"
         },
         {
           "foreground": "#62c0ff",
