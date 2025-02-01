@@ -14,10 +14,16 @@
           "type": "os"
         },
         {
-          "foreground": "#62c0ff",
+          "foreground": "#61e294",
           "style": "plain",
-          "template": "{{ .UserName }}@",
+          "template": "{{ .UserName }}",
           "type": "session"
+        },
+        {
+          "foreground": "#ce84ad",
+          "style": "plain",
+          "template": "@",
+          "type": "text"
         },
         {
           "foreground": "#62c0ff",
