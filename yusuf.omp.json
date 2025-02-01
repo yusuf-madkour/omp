@@ -53,7 +53,7 @@
           "type": "git"
         },
         {
-          "foreground": "#022b3a",
+          "foreground": "#fdf5bf",
           "style": "plain",
           "template": "\u276f ",
           "type": "text"
