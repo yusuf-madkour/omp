@@ -9,7 +9,7 @@
             "display_host": false
           },
           "style": "plain",
-          "template": " {{ if .SSHSession }}\uf08c {{ end }}",
+          "template": " {{ if .SSHSession }}\udb82\udcc0 {{ end }}",
           "foreground": "#62c0ff",
           "type": "session"
         },
