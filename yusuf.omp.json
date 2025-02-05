@@ -4,6 +4,15 @@
     {
       "alignment": "left",
       "segments": [
+	{
+          "properties": {
+            "display_host": false
+          },
+          "style": "plain",
+          "template": " {{ if .SSHSession }}\uf817 {{ end }}",
+          "foreground": "#62c0ff",
+          "type": "session"
+        },
         {
           "foreground": "#ff8800",
           "properties": {
